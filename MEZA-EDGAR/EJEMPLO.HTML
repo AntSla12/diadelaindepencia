@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dividir página en dos colores de fondo con texto</title>
+	<style>
+		/* Establecer el tamaño de la página completa */
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		/* Establecer la mitad izquierda de la página en un color */
+		.left-half {
+			float: left;
+			width: 50%;
+			height: 100%;
+			background-color: whithe;
+		}
+		/* Establecer la mitad derecha de la página en otro color */
+		.right-half {
+			float: left;
+			width: 50%;
+			height: 100%;
+			background-color: red;
+		}
+		/* Estilo para el texto */
+		.text {
+			margin: 20px;
+			font-size: 24px;
+			color: black;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<!-- Dividir la página en dos partes -->
+	<div class="left-half">
+		<div class="text">
+			<p>Este es el texto de la mitad izquierda.</p>
+		</div>
+	</div>
+	<div class="right-half">
+		<div class="text">
+			<p>Este es el texto de la mitad derecha.</p>
+		</div>
+	</div>
+</body>
+</html>

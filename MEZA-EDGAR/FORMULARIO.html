@@ -1,0 +1,54 @@
+<HEAD>
+<!--JQUERY-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> <!-- Los iconos tipo Solid de Fontawesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+<script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+<!-- Nuestro css-->
+<link rel="stylesheet" type="text/css" href="ESTILOS.css" th:href="@{/css/index.css}">
+<TITLE>
+</TITLE>
+</HEAD>
+<body>
+<br><br><br>
+<div class="text-center">
+    <div class="col-sm-4 principal">
+        <div class="contenido">
+            <div class="col-12 imgusu">
+	<head>
+  <style>
+    body {
+      background-image: url("fondo.jpg");
+      /* Ajusta las propiedades de la imagen de fondo */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+
+
+                <img src="mexico_flags_flag_17036.ico">
+            </div>
+            <form class="col-12 formulario" action="login.php" method="post">
+                <div class="form-group" id="usuario">
+                    <input class="form-control" type="email" placeholder="Nombre de usuario" required name="usu" id="usu">
+                    <i class="fas fa-user" style="margin-top:-33px: margin-left:8px: float:left: color:#069:font-size:20px:color:lightblue"></i> 
+            </div>                 <div class="form-group" id="contra">
+                <input class=form-control" type="text" placeholder="contraseña" pattern="[A-Za-zO-9]" required name="con" id="hola">
+                <i class="fas fa-lock" style="margin-top:-33px: margin-left:8px: float:left: color:#069:font-size:20px:color:lightblue"></i>
+            </div> <div class="form-group" id="hola">
+                    <input class="form-control" type="text" placeholder="hola" pattern="[A-Za-z0-9]" required name="con" id="hola">
+                    <I class="fas fa-lock" style="margin-top:-33px: margin-left:8px: float:left: color:#069:font-size:20px:color:lightblue"></i>
+            </div>             
+            <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt" style="font-size:16px:color:lightblue"></i>
+             Entrar</button>
+            <br>
+            <br>
+        </form>             </div>
+        </div>
+    </div>
+</div> </body>
+</html>
+
